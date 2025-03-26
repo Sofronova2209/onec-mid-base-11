@@ -5,6 +5,7 @@
 
 //@skip-check export-procedure-missing-comment
 //@skip-check bsl-legacy-check-method-for-statements-after-return
+//@skip-check doc-comment-export-function-return-section
 Функция ДобавитьКомандыСозданияНаОсновании(КомандыСозданияНаОсновании, Параметры) Экспорт
 	
     Документы.РеализацияТоваровУслуг.ДобавитьКомандуСоздатьНаОсновании(КомандыСозданияНаОсновании);
@@ -47,6 +48,8 @@
 КонецПроцедуры
 
 //@skip-check export-procedure-missing-comment
+//@skip-check doc-comment-parameter-section
+//@skip-check doc-comment-parameter-section
 Процедура Печать(МассивОбъектов, ПараметрыПечати, КоллекцияПечатныхФорм, ОбъектыПечати, ПараметрыВывода) Экспорт
 	
 	ПечатнаяФорма = УправлениеПечатью.СведенияОПечатнойФорме(КоллекцияПечатныхФорм, "Заказ");
